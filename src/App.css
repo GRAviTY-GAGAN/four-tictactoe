@@ -16,6 +16,15 @@ body {
   align-items: center;
 }
 .icon {
-  font-size: 35px;
-  color: #ffffff;
+  font-size: 25px;
+  color: black;
 }
+
+.card{
+  transition: all 1s linear;
+}
+
+.card :hover {
+  transform: rotate(50deg);
+}
+
